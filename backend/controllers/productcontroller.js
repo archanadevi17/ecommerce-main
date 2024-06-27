@@ -5,7 +5,7 @@ exports.getproducts=async(req,res,next)=> {
     const products=await Productmodel.find({});
 
     res.json(
-        {
+        {  
             success:true,
             products
         }
