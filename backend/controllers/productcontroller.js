@@ -17,8 +17,10 @@ exports.getsingleproduct=async(req,res,next)=>{
     /*console.log(req.params.id,'ID')
     const product=await Productmodel.findById(req.params.id);
     res.json({
+
         success:true,
         product
+        
     })
 
 }*/

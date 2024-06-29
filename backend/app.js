@@ -10,6 +10,7 @@ const order=require('./Route/order');
 
 connectdatabase();
 
+app.use(express.json())
 app.use('/api/v1/',product);
 app.use('/api/v1/',order);
 
